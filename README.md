@@ -19,6 +19,11 @@ Download and install mongodb (https://www.mongodb.org/downloads#production)
 git clone https://github.com/guptam2/node-express-seed-project.git
 <br>
 <br>
+<li>Install modules</li>
+<br>
+npm install
+<br>
+<br>
 <li>Start the server</li>
 <br>
 node server.js
