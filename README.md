@@ -11,6 +11,14 @@ Download and install nodejs (https://nodejs.org/en/)
 <br>
 Download and install mongodb (https://www.mongodb.org/downloads#production)
 
+<h2>Highlights</h2>
+
+<br>
+Logger based on Winston
+<br>
+Environment based configuration using config(https://www.npmjs.com/package/config#introduction)
+
+
 <h2>Running the application</h2>
 
 <ul>
@@ -21,6 +29,7 @@ git clone https://github.com/guptam2/node-express-seed-project.git
 <br>
 <li>Install modules</li>
 <br>
+cd node-express-seed-project
 npm install
 <br>
 <br>
@@ -41,7 +50,32 @@ node server.js
 <li>Send a GET request</li>
 <br>
 URL : http://localhost:3000/contacts
+<br>
+<br>
+<li>Config</li>
+<br>
+<p>
+Different config file can be loaded by setting the NODE_ENV environment variable
+<br>
+<br>
+e.g. $export NODE_ENV=dev  
+<br>
+<br>
+It will load the <basepath>\node-express-seed-project\config\dev.json
+</p>
 
+<li>Check the log</li>
+<br>
+<p>Default log file is C:\tmp\node-express-seed-project.log</p>
+<p>
+To change the log file location provide a config and set the NODE_ENV variable
+<br><br>
+e.g. New config <basepath>\node-express-seed-project\config\dev.json
+<br><br>
+export NODE_ENV=dev   
+<br><br>
+New log file is C:\tmp\node-express-seed-project-dev.log
+</p>
 </ul>
 
 

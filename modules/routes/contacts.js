@@ -17,7 +17,10 @@ var contactSchema = mongoose.Schema({
 
 var Contact = mongoose.model('Contact', contactSchema);
 
+//GET request
 router.get('/', function(req, res){
+	
+	logger.info('Retrieving data from mongodb');
 	
 	Contact.find(function(err, contacts){
 		if(err){
@@ -29,6 +32,7 @@ router.get('/', function(req, res){
 	
 });
 
+//POST request
 router.post('/', function(req, res){
 	
 	logger.info('Inserting Data to mongodb');
