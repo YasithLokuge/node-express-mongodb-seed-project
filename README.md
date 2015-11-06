@@ -24,12 +24,13 @@ Environment based configuration using config(https://www.npmjs.com/package/confi
 <ul>
 <li>Clone the project</li>
 <br>
-git clone https://github.com/guptam2/node-express-seed-project.git
+git clone https://github.com/guptam2/node-express-mongodb-seed-project.git
 <br>
 <br>
 <li>Install modules</li>
 <br>
-cd node-express-seed-project
+cd node-express-mongodb-seed-project
+<br>
 npm install
 <br>
 <br>
