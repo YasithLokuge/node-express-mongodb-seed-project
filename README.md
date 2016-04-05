@@ -11,6 +11,12 @@ Download and install nodejs (https://nodejs.org/en/)
 <br>
 Download and install mongodb (https://www.mongodb.org/downloads#production)
 
+<h2>Environment</h2>
+
+Windows
+<br>
+Git Bash
+
 <h2>Highlights</h2>
 
 <br>
@@ -29,13 +35,20 @@ git clone https://github.com/guptam2/node-express-mongodb-seed-project.git
 <br>
 <li>Install modules</li>
 <br>
-cd node-express-mongodb-seed-project
+cd <basepath>/node-express-mongodb-seed-project
 <br>
 npm install
 <br>
 <br>
-<li>Start the server</li>
+<li>Start mongodb</li>
 <br>
+cd "/c/Program Files/MongoDB/Server/3.2/bin"
+mongod
+<br>
+<br>
+<li>Start nodejs server</li>
+<br>
+cd <basepath>/node-express-mongodb-seed-project
 node server.js
 <br>
 <br>
@@ -69,13 +82,7 @@ It will load the <basepath>\node-express-seed-project\config\dev.json
 <br>
 <p>Default log file is C:\tmp\node-express-seed-project.log</p>
 <p>
-To change the log file location provide a config and set the NODE_ENV variable
-<br><br>
-e.g. New config <basepath>\node-express-seed-project\config\dev.json
-<br><br>
-export NODE_ENV=dev   
-<br><br>
-New log file is C:\tmp\node-express-seed-project-dev.log
+To change the log file location modify the <basepath>\node-express-seed-project\config\dev.json. 
 </p>
 </ul>
 
