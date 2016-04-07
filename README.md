@@ -47,6 +47,7 @@ $ npm install
 <li>Start mongodb</li>
 <br>
 Open Git Bash
+<br>
 $ cd "/c/Program Files/MongoDB/Server/3.2/bin"
 <br>
 $ mongod
@@ -54,8 +55,9 @@ $ mongod
 <br>
 <li>Start nodejs server</li>
 <br>
-cd &lt;basepath&gt;/node-express-mongodb-seed-project
-node server.js
+$ cd &lt;basepath&gt;/node-express-mongodb-seed-project
+<br>
+$ node server.js
 <br>
 <br>
 <li>Send a POST request</li>
