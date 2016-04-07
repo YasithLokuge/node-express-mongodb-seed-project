@@ -30,25 +30,31 @@ Environment based configuration using config(https://www.npmjs.com/package/confi
 <ul>
 <li>Clone the project</li>
 <br>
-git clone https://github.com/guptam2/node-express-mongodb-seed-project.git
+Open Git Bash
+<br>
+$ cd &lt;basepath&gt;
+<br>
+$ git clone https://github.com/guptam2/node-express-mongodb-seed-project.git
 <br>
 <br>
 <li>Install node modules</li>
 <br>
-cd &lt;basepath&gt;/node-express-mongodb-seed-project
+$ cd &lt;basepath&gt;/node-express-mongodb-seed-project
 <br>
-npm install
+$ npm install
 <br>
 <br>
 <li>Start mongodb</li>
 <br>
-cd "/c/Program Files/MongoDB/Server/3.2/bin"
-mongod
+Open Git Bash
+$ cd "/c/Program Files/MongoDB/Server/3.2/bin"
+<br>
+$ mongod
 <br>
 <br>
 <li>Start nodejs server</li>
 <br>
-cd <basepath>/node-express-mongodb-seed-project
+cd &lt;basepath&gt;/node-express-mongodb-seed-project
 node server.js
 <br>
 <br>
@@ -75,7 +81,7 @@ Different config file can be loaded by setting the NODE_ENV environment variable
 e.g. $export NODE_ENV=dev  
 <br>
 <br>
-It will load the <basepath>\node-express-seed-project\config\dev.json
+It will load the &lt;basepath&gt;\node-express-seed-project\config\dev.json
 </p>
 
 <li>Check the log</li>
