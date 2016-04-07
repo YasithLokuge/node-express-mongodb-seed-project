@@ -54,6 +54,7 @@ $ cd "/c/Program Files/MongoDB/Server/3.2/bin"
 <br>
 $ mongod
 <br>
+* Mongodb folder might be different based on your installation.
 <br>
 <li>Start nodejs server</li>
 <br>
