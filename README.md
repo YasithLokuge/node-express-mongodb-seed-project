@@ -56,6 +56,7 @@ $ mongod
 <br>
 * Mongodb folder might be different based on your installation.
 <br>
+<br>
 <li>Start nodejs server</li>
 <br>
 $ cd &lt;basepath&gt;/node-express-mongodb-seed-project
