@@ -63,7 +63,7 @@ $ cd &lt;basepath&gt;/node-express-mongodb-seed-project
 $ node server.js
 <br>
 <br>
-<li>Send a POST request</li>
+<li>Send a POST request (Postman plugin)</li>
 <br>
 <b>URL :</b> http://localhost:3000/contacts
 <br>
@@ -72,7 +72,7 @@ $ node server.js
 <br>
 <br>
 
-<li>Send a GET request</li>
+<li>Send a GET request  (Postman plugin)</li>
 <br>
 URL : http://localhost:3000/contacts
 <br>
