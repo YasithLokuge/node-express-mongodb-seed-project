@@ -33,9 +33,9 @@ Environment based configuration using config(https://www.npmjs.com/package/confi
 git clone https://github.com/guptam2/node-express-mongodb-seed-project.git
 <br>
 <br>
-<li>Install modules</li>
+<li>Install node modules</li>
 <br>
-cd <basepath>/node-express-mongodb-seed-project
+cd &lt;basepath&gt;/node-express-mongodb-seed-project
 <br>
 npm install
 <br>
