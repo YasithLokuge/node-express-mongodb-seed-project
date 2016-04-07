@@ -16,6 +16,8 @@ Download and install mongodb (https://www.mongodb.org/downloads#production)
 Windows
 <br>
 Git Bash
+<br>
+Postman chrome pulgin
 
 <h2>Highlights</h2>
 
@@ -77,10 +79,10 @@ URL : http://localhost:3000/contacts
 <li>Config</li>
 <br>
 <p>
-Different config file can be loaded by setting the NODE_ENV environment variable
+Different config file can be loaded by setting the NODE_ENV environment variable. Default config file is &lt;basepath&gt;\node-express-seed-project\config\default.json
 <br>
 <br>
-e.g. $export NODE_ENV=dev  
+e.g. $ export NODE_ENV=dev  
 <br>
 <br>
 It will load the &lt;basepath&gt;\node-express-seed-project\config\dev.json
@@ -90,7 +92,7 @@ It will load the &lt;basepath&gt;\node-express-seed-project\config\dev.json
 <br>
 <p>Default log file is C:\tmp\node-express-seed-project.log</p>
 <p>
-To change the log file location modify the <basepath>\node-express-seed-project\config\dev.json. 
+To change the log file location modify the &lt;basepath&gt;\node-express-seed-project\config\default.json. 
 </p>
 </ul>
 
