@@ -68,7 +68,7 @@ $ node server.js
 <br>
 <b>URL :</b> http://localhost:3000/contacts
 <br>
-<b>Request Body :</b> <p>{"first_name":"m", "last_name":"g","phone":"123456789", "address_line_1":"3 test road","address_line_2":"test city", "county":"berkshire","postcode":"tt1 2tt"}</p>
+<b>Request Body :</b> <p>{"firstName":"m", "lastName":"g","phone":"123456789", "addressLine1":"3 test road","addressLine2":"test city", "county":"berkshire","postcode":"tt1 2tt"}</p>
 <b>Content Type :</b> application/json
 <br>
 <br>
